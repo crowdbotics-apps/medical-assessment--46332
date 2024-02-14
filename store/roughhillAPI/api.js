@@ -1,6 +1,6 @@
 import axios from "axios"
 const roughhillAPI = axios.create({
-  baseURL: "https://rough-hill-46332.botics.co",
+  baseURL: "https://usu-assessment-46332.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_docs_schema_retrieve(payload) {
